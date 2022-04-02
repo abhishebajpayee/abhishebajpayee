@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @abhishek bajpayee
+- 👋 Hi, I’m abhishek bajpayee
 - 👀 I’m interested in coding...
 - 🌱 I’m currently learning computer science in B Tech
 - 💞️ I’m looking to collaborate on github
