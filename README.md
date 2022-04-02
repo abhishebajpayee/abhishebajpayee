@@ -1,7 +1,7 @@
 - 👋 Hi, I’m abhishek bajpayee
 - 👀 I’m interested in coding...
 - 🌱 I’m currently learning computer science in B Tech
-- 💞️ I’m looking to collaborate on github
+- 💞️ I’m looking to collaborate on github for getting  god job.
 - 📫 My linkdin profile :
 https://www.linkedin.com/mwlite/in/abhishek-bajpayee-869158232
 <!---
