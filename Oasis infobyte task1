@@ -1,0 +1,492 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> TechStore </title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ 
+  <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/hero-bg.jpg" alt="">
+    </div>
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="#">
+            <h1 style="color: #76b900">TechStore</h1>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1 style="padding-top: 100px;"> 
+                      All Computer Related Hardware
+                    </h1>
+                    <p>
+                    </p>
+                    <div class="btn-box">
+                      <a href="#menu" class="btn1">
+                        Order Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+  <section class="offer_section layout_padding-bottom" >
+    <div class="offer_container">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-6  ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/o1.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Logitech G402
+                </h5>
+                <h6>
+                  <span>20%</span> Off
+                </h6>
+                <a href="">
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6  ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/o2.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Cosmic Byte CB-GK-26
+                </h5>
+                <h6>
+                  <span>15%</span> Off
+                </h6>
+                <a href="">
+                  Order Now 
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="food_section layout_padding-bottom" id="menu">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 style="padding-bottom: 50px;">
+          Our Products
+        </h2>
+      </div>
+
+
+      <div class="filters-content">
+        <div class="row grid">
+          <div class="col-sm-6 col-lg-4 all keyboard">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f2.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Cosmic Byte CB-GK-26
+                  </h5>
+                  <p>
+                    Compact Mechanical Keyboard with 104 keys.<br>
+                    Red Outemu Mechanical Silent Key Switches.<br>
+                    50 million + Operations for Each Key.
+                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹1,600
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all mouse">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f1.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Logitech G402
+                  </h5>
+                  <p>
+                    HIGH SPEED TRACKING <br>
+                    8 PROGRAMMABLE BUTTONS <br>
+                    4000 DPI                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹2,200
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all keyboard">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f3.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    GAMDIAS Hermes
+                  </h5>
+                  <p>
+                    Red Outemu Mechanical Silent Key Switches.<br>
+                    50 million + Operations for Each Key.
+                                    </p>
+                  <div class="options">
+                    <h6>
+                      ₹3,300
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Screen">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f55.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    MSI Optix G241
+                  </h5>
+                  <p>
+                    144Hz Refresh Rate <br>
+                    1ms Response Time<br>
+                    Wide Color Gamut                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹17,000
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Chair">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/41ufdO9Om7L.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Drogo Multi-Purpose Ergonomic Gaming Chair
+                  </h5>
+                  <p>
+                    Multi-Purpose Ergonomic Gaming Chair with Head & USB Massager Pillow, PU Leather
+                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹16,000
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all keyboard">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f4.webp" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Logitech G813
+                  </h5>
+                  <p>
+                    INTELLIGENT RGB <br>
+                    MECHANICAL GAMING SWITCHES <br>
+                    22 MM TOTAL HEIGHT
+                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹13,400
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all mouse">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/ss.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    SteelSeries AEROX 3
+                  </h5>
+                  <p>
+                    Ultra lightweight 68g design for effortlessly fast gameplay<br>
+                    Optimized 200 hour battery life plus USB-C fast charging<br>
+                  10,000 DPI                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹12,000
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all mouse">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/ss-PhotoRoom.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Razer DeathAdder V2 Pro
+                  </h5>
+                  <p>
+                    Razer™ HyperSpeed Wireless
+                    Razer™ Focus+ 20K DPI Optical Sensor
+                    Razer™ Optical Mouse Switch
+                                      </p>
+                  <div class="options">
+                    <h6>
+                      ₹7,000
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Screen">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f66.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    LG Ultragear - 27Gp750-B
+                  </h5>
+                  <p>
+                    27” Full HD (1920 x 1080) IPS Display<br>
+                    IPS 1ms (GtG) Response Time and 240Hz Refresh Rate
+
+                  </p>
+                  <div class="options">
+                    <h6>
+                      ₹24,000
+                    </h6>
+                    <h6 style="color:#76b900; font-weight: bold;">Order</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          View More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_section layout_padding" id="about">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/nvidia_geforce_rtx_2080_uhd-wallpaper-1920x1200.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                We Are TechStore
+              </h2>
+            </div>
+            <p>
+              We provide gaming related products at lowest price comaring any E_commerce website.
+              The other products orders also willbe taken.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="book_section layout_padding" id="contact">
+    <div class="container" style="max-width: 720px;">
+      <div class="heading_container">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+        <div class="md-6">
+          <div class="form_container">
+            <form action="">
+              <div>
+                <input type="text" class="form-control" placeholder="Your Name" />
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Your Email" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  Contact
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call : 9763836736
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  adityakajale123@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              TechStore
+            </a>
+            <p>
+              Every type of gaming related products will be provided.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Opening Hours
+          </h4>
+          <p>
+            Everyday
+          </p>
+          <p>
+            10.00 Am -10.00 Pm
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+
+</body>
+
+</html>
